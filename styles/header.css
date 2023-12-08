@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  height: 73px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 1px;
+}
+
+.header__logo-text {
+  margin-top: 8px;
+  display: flex;
+  font-weight: 300;
+  width: 165px;
+  height: 24px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 15px;
+  margin-top: 16px;
+  margin-right: 137px;
+}
+
+.header__nav-elem {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__links {
+  display: flex;
+  gap: 30px;
+  margin-top: 16px;
+}
+
+.header__links-elem {
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}

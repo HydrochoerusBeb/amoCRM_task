@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px){
+    .main,
+    .main__info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .main__info-button {
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    main .main__info-header{
+        text-align: start;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    main .main__info-elem{
+        font-size: 13px;
+
+    }
+    main .main__info-elem-header{
+        width: 100px;
+        text-align: left;
+    }
+
+    main .main__info-elem-header::before{
+        content: "";
+        display: block;
+        width: 10px;
+        height: 1px;
+        background-image: linear-gradient(to right, rgb(255, 140, 0), rgb(255, 0, 102));
+        position: relative;
+        top: 12px;
+        right: 15px;
+    }
+    main .main__info-elem-text{
+        display: none;
+    }
+    main .main__header-content{
+        font-size: 36px;
+        width: 280px;
+    }
+    main .main__header{
+        width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+.spheres_z-index {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.purple_sphere {
+  width: 80px;
+  height: 80px;
+  left: 868px;
+  top: -2px;
+}
+
+.red_sphere {
+  width: 60px;
+  height: 60px;
+  left: 851px;
+  top: 547px;
+}
+
+.red_sphere-large {
+  width: 100px;
+  height: 100px;
+  left: 519px;
+  top: 83px;
+}
+
+@media screen and (max-width: 500px){ 
+    .purple_sphere {
+    left: 240px;
+    top: 350px;
+    rotate: 90deg;
+  }
+  
+  .red_sphere {
+    display: none;
+  }
+  
+  .red_sphere-large {
+    left: 60px;
+    top: 500px;
+  }
+  
+
+}
+

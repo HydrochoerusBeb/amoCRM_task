@@ -1,0 +1,36 @@
+.shadows {
+  opacity: 0.5;
+  filter: blur(196px);
+  position: absolute;
+}
+
+.purple_shadow {
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  background: #833ab4;
+  top: -154px;
+  left: 602px;
+}
+
+.red_shadow {
+  width: 311px;
+  height: 311px;
+  border-radius: 311px;
+  background: #961a1a;
+  top: 251px;
+  left: -180px;
+}
+
+
+@media screen and (max-width: 500px){
+    .purple_shadow {
+        left: 0px;
+  }
+
+  .red_shadow{
+    top: 500px;
+    right: 0px;
+  }
+}
+

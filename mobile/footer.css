@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px){
+    footer .footer{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    .footer__menu{
+        width: 100%;
+    }
+
+     footer .footer__elem{
+        margin: 0px;
+    }
+}

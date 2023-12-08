@@ -1,0 +1,93 @@
+@import "./mobile/main.css";
+@import "./mobile/footer.css";
+@import "./mobile/header.css";
+
+@import "./styles/main.css";
+@import "./styles/footer.css";
+@import "./styles/header.css";
+
+@import "./styles/shadows.css";
+@import "./styles/spheres.css";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  background: var(--black, #0e1014);
+  padding: 46px 150px 0px;
+  color: var(--light-text, #e4e5ea);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 900px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+.accent {
+  color: #e4e5ea;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  line-height: normal;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1),
+    rgba(255, 63, 120, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accent_size-normal {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.accent_size-bold {
+  font-weight: 900;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    padding: 46px 150px 0px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: auto;
+    padding: 0 20px;
+  }
+  header {
+    margin: 0;
+  }
+}

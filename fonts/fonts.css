@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Montserrat;
+    src:
+      url(./Montserrat-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Inter;
+    src:
+      url(./Inter-VariableFont_slnt\,wght.ttf),
+      url(./Inter-Medium.ttf);
+    font-weight: normal;
+    font-display: swap;
+  }
+
+  
+  @font-face{
+    font-family: Inter;
+    src: url(Inter-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  
+  @font-face {
+    font-family: Inter;
+    src: url(./Inter-Black.ttf);
+    font-weight: 900;
+    font-display: swap;
+  }

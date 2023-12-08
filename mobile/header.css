@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px){
+    .header__nav-elem:nth-child(5),
+    header .header__logo,
+    header .header__links{
+        display: none;
+    }
+    header .header__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .header__nav-elem{
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    header .header{
+        margin: 0;
+    }
+}
